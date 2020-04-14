@@ -103,7 +103,7 @@ The basic steps for compression are:
 1. Read the source file and determine the frequencies of the characters in the file
 2. Store the character frequencies in a heap (priority queue)
 3. Build a tree of prefix codes (a Huffman code) that determines the unique bit codes for each character
-4. Write the prefix codes to the output file, following the file format above
+4. Write the prefix codes to the output file, following the file format below
 5. Re-read the source file and for each character read, write its prefix code to the output, following the file format described below
 
 Your program must take in a single command-line parameter, which is the name of the file whose contents will be encoded.  We have some sample plain text and encoded text files (in the labs/lab10/examples/ directory) -- a description of these files is in the in-lab section.
